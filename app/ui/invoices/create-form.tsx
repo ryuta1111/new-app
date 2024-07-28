@@ -10,7 +10,8 @@ import { Button } from '@/app/ui/button';
 import { createInvoice } from '@/app/lib/actions';
 
 export default function Form({
-  customers, }: {
+  customers,
+}: {
     customers: CustomerField[];
   }) {
   return (
